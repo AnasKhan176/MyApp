@@ -11,6 +11,8 @@ import android.view.View;
 import com.example.emirates.R;
 import com.example.emirates.databinding.ActivityMainBinding;
 import com.example.emirates.viewmodel.ExpenseViewModel;
+import com.example.emirates.viewmodel.MyViewModelFactory;
+
 import java.util.Calendar;
 
 public class MainActivity extends BaseActivity {
@@ -35,9 +37,8 @@ public class MainActivity extends BaseActivity {
         initData();
     }
 
-
     private void initData() {
-        eExpenseViewModel = ViewModelProviders.of(this).get(ExpenseViewModel.class);
+        eExpenseViewModel = ViewModelProviders.of(this, new MyViewModelFactory(this.getApplication())).get(ExpenseViewModel.class);
         date = Calendar.getInstance();
         toastLong(this, "Total saved Data : " + String.valueOf(eExpenseViewModel.getDataCount()));
     }
