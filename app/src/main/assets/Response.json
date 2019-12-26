@@ -1,0 +1,1 @@
+{	"paymenttype": [		{			"pmode": "Cash",			"pid": "1"		},		{			"pmode": "Debit card",			"pid": "2"		},		{			"pmode": "Credit card",			"pid": "3"		},		{			"pmode": "Internet Banking",			"pid": "4"		}	]}

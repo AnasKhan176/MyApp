@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="main_title">Expense-claim march</string>
+
+    <string name="main_date">Date</string>
+    <string name="main_payment">Payment Type</string>
+    <string name="main_from">From</string>
+    <string name="main_to">To</string>
+    <string name="main_gross">Gross amount</string>
+    <string name="menu_save">SAVE</string>
+
+    <string name="main_date_err">Please select date</string>
+    <string name="main_payment_err">Please select Payment type</string>
+    <string name="main_from_err">Please enter from text</string>
+    <string name="main_to_err">Please enter to text</string>
+    <string name="main_gross_err">Please enter gross amount</string>
+
+    <string name="data_save">Data saved successfully</string>
+    <string name="payment_mode">Select Payment mode</string>
+
+
+</resources>
